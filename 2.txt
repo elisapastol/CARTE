@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<head>
+		<title>carte sensible</title>
+		<link rel="stylesheet" href="css.css" />
+		 <script src="http://code.jquery.com/jquery-1.12.4.js" ></script>
+		 <script>
+	var valeurDeg = 0;
+	var angle = 90;
+	
+	$( document ).ready(function() {
+		$('img').click(function() {
+			
+			window.valeurDeg += window.angle;
+			var valeurDeg = window.valeurDeg;
+			
+			$(this).css("transform", "rotate("+valeurDeg+"deg)");
+		});
+	});
+	</script>
+	</head>
+	
+	<body>
+		<div id="m">
+		
+			<div id=1">
+			<img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M3.png" width="200px" height="200px" /><img   src="M4.png" width="200px" height="200px" /><img   src="M5.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" />
+			</div>
+			
+			<div id="2">
+			<img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" />
+			</div>
+			
+			<div id="3"><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" />
+			
+			</div>
+			
+			<div id="4">
+			<img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" />
+			</div>
+			
+			<div id="5">
+			<img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" /><img   src="M2.png" width="200px" height="200px" /><img   src="M1.png" width="200px" height="200px" />
+		</div>
+			
+
+		</div>
+		
+		
+		
+		<div id="b2">
+			<img   src="fond.jpg" width="1400px" height="1000px" />
+		</div>
+		
+	
+	</body>
+	
+</!DOCTYPE html>
